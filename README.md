@@ -1,5 +1,5 @@
-# Ball Corporation (ball)
-Ball Corporation is a Fortune 500 company specializing in aluminum packaging for beverages, personal care, and household products, as well as aerospace technologies and services. Ball does not currently offer a public API developer portal. The company provides a supplier portal for vendor management and uses Coupa for procurement, but no externally documented REST APIs are available for third-party developer integration.
+# Ball (ball)
+Ball is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for Ball.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/ball/refs/heads/main/apis.yml)
 
@@ -11,7 +11,7 @@ Ball Corporation is a Fortune 500 company specializing in aluminum packaging for
 
 ## Tags:
 
- - Aluminum Packaging, Aerospace, Manufacturing
+ - Fortune 500
 
 ## Timestamps
 
@@ -20,13 +20,11 @@ Ball Corporation is a Fortune 500 company specializing in aluminum packaging for
 
 ## APIs
 
-No public APIs are currently documented for Ball Corporation.
+No public APIs have been documented yet. Contributions welcome.
 
 ## Common Properties
 
 - [Website](https://www.ball.com)
-- [Supplier Portal](https://ballsuppliersa.com/)
-- [Careers](https://jobs.ball.com/)
 
 ## Maintainers
 
