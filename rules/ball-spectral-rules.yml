@@ -1,0 +1,66 @@
+rules:
+  # Note: Ball Corporation does not expose public developer APIs.
+  # These rules would apply if/when Ball Corporation publishes partner or supply chain APIs.
+
+  ball-info-title-required:
+    description: API title must be present.
+    message: "API info must include a title."
+    severity: error
+    given: "$.info"
+    then:
+      field: title
+      function: truthy
+
+  ball-info-description-required:
+    description: API description must be present.
+    message: "API info must include a description."
+    severity: warn
+    given: "$.info"
+    then:
+      field: description
+      function: truthy
+
+  ball-info-version-required:
+    description: API version must be present.
+    message: "API info must include a version."
+    severity: error
+    given: "$.info"
+    then:
+      field: version
+      function: truthy
+
+  ball-operation-id-required:
+    description: All operations must have an operationId.
+    message: "Operation must have an operationId."
+    severity: error
+    given: "$.paths[*][get,post,put,patch,delete]"
+    then:
+      field: operationId
+      function: truthy
+
+  ball-operation-summary-required:
+    description: All operations must have a summary.
+    message: "Operation must have a summary."
+    severity: warn
+    given: "$.paths[*][get,post,put,patch,delete]"
+    then:
+      field: summary
+      function: truthy
+
+  ball-response-200-required:
+    description: GET operations must define a 200 response.
+    message: "GET operations must define a 200 success response."
+    severity: error
+    given: "$.paths[*].get.responses"
+    then:
+      field: "200"
+      function: truthy
+
+  ball-schema-description-required:
+    description: All named schemas must have a description.
+    message: "Schema components must have a description."
+    severity: warn
+    given: "$.components.schemas[*]"
+    then:
+      field: description
+      function: truthy

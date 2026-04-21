@@ -1,0 +1,35 @@
+vocabulary:
+  name: Ball Corporation Vocabulary
+  description: Taxonomy for Ball Corporation covering aluminum packaging manufacturing and aerospace technology domains.
+  version: '1.0'
+  provider: ball
+
+resources:
+  - name: PackagingProduct
+    description: Aluminum packaging product such as a beverage can, bottle, or aerosol container.
+    aliases: [can, bottle, container]
+  - name: ManufacturingPlant
+    description: Ball Corporation production facility for aluminum packaging or aerospace components.
+    aliases: [plant, facility, site]
+  - name: SatelliteSystem
+    description: Aerospace satellite, instrument, or mission system produced by Ball.
+    aliases: [satellite, spacecraft]
+  - name: Customer
+    description: Beverage brand, food company, or government agency purchasing Ball products.
+    aliases: [client, brand]
+
+actions:
+  - name: produce
+    description: Manufacture aluminum packaging or aerospace components.
+  - name: supply
+    description: Deliver aluminum packaging to customer facilities.
+  - name: recycle
+    description: Process used aluminum back into new packaging material.
+  - name: design
+    description: Engineer custom packaging or aerospace solutions for customers.
+
+personas:
+  - name: Packaging Customer
+    description: Beverage or food brand procuring aluminum packaging from Ball Corporation.
+  - name: Government Agency
+    description: US or international government agency contracting aerospace services from Ball.
