@@ -19,6 +19,10 @@ image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/BallAerospace
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ball
   - type: Website
     url: https://www.ball.com
     name: Ball Corporation
