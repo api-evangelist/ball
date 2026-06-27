@@ -3,13 +3,15 @@
   "feeds": [
     {
       "source": "https://www.ball.com/newswire",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "HTTP 403 Forbidden"
     },
     {
       "source": "https://www.ball.com/aerospace",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "HTTP 403 Forbidden"
     }
   ],
-  "fetched": "2026-06-14T20:42:17Z",
+  "fetched": "2026-06-27T12:27:15Z",
   "post_count": 0
 }
