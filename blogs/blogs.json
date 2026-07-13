@@ -2,16 +2,10 @@
   "repo": "ball",
   "feeds": [
     {
-      "source": "https://www.ball.com/newswire",
-      "saved": 0,
-      "error": "HTTP 403 Forbidden"
-    },
-    {
       "source": "https://www.ball.com/aerospace",
-      "saved": 0,
-      "error": "HTTP 403 Forbidden"
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-06-27T12:27:15Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }
