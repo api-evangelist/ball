@@ -1,7 +1,9 @@
 ---
 title: Reflecting its commitment to delivering advisor-first ...
 url: https://www.facebook.com/RaymondJames/posts/reflecting-its-commitment-to-delivering-advisor-first-technology-the-firm-has-an/1394319819394063/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ball" press release artificial intelligence'
 position: 3
 source: serpapi-google

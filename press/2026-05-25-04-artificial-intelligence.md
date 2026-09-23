@@ -1,7 +1,9 @@
 ---
 title: Artificial Intelligence
 url: https://investorsforhumanrights.org/taxonomy/term/51?page=1
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ball" press release artificial intelligence'
 position: 4
 source: serpapi-google
