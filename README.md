@@ -1,4 +1,4 @@
-# Ball Corporation (ball)
+# Ball Corporation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,92 @@
 
 Ball Corporation is a global supplier of sustainable aluminum packaging for beverage, food, personal care, and household products, as well as aerospace and other technologies and services for commercial and government customers. Ball operates more than 80 manufacturing plants worldwide and is a leader in aluminum can sustainability and recycling.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/ball/refs/heads/main/apis.yml)
+**Areas:** Aluminum Packaging · Aerospace · Manufacturing · Beverage Packaging · Sustainability · Fortune 500
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Ball Corporation on APIs.io
 
-## Tags:
+Everything profiled for Ball Corporation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ball/](https://apis.io/providers/ball/)** — or go straight to one of the APIs or properties below.
 
- - Aluminum Packaging, Aerospace, Manufacturing, Beverage Packaging, Sustainability
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-21
+#### Vocabulary (1)
 
-## APIs
+The provider's domain terms, defined.
 
-No public developer APIs have been identified for Ball Corporation. Ball is a manufacturing and aerospace company; their technology offerings are internal enterprise systems and government contracts rather than public API platforms.
+- [Ball Corporation Vocabulary](https://apis.io/vocabularies/ball/ball-vocabulary/)
 
-## Common Properties
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Ball Corporation API Rules](https://apis.io/rules/ball/ball-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ball Domain Security](https://apis.io/security/ball/ball-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.ball.com)
-- [Aerospace](https://www.ball.com/aerospace)
-- [Newswire](https://www.ball.com/newswire)
-- [PrivacyPolicy](https://www.ball.com/privacy-policy)
+- [Blog](https://www.ball.com/newswire)
+- [Privacy policy](https://www.ball.com/privacy-policy)
+- [GitHub](https://github.com/BallAerospace)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Aluminum Beverage Packaging | Sustainable aluminum cans and bottles for beverage brands worldwide. |
-| Aerospace Systems | Satellite systems, instruments, and mission solutions for government and commercial customers. |
-| Sustainable Manufacturing | Industry-leading aluminum recycling and circular economy initiatives. |
-| Global Supply Chain | 80+ manufacturing plants across North America, Europe, South America, and Asia. |
-| Custom Packaging Solutions | Specialty aluminum packaging for food, personal care, and household products. |
+**Kin Score 7.5** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 21.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
 
-| Name | Description |
-|------|-------------|
-| Beverage Packaging | Aluminum cans and bottles for beer, soda, energy drinks, and water brands. |
-| Aerospace and Defense | Satellite systems, weather monitoring, and defense technology solutions. |
-| Sustainable Packaging | Infinitely recyclable aluminum packaging to reduce plastic waste. |
-| Food Packaging | Aluminum containers and aerosol cans for food and household products. |
-| Government Contracts | Space systems and technology services for US government agencies. |
+**Agent readiness 0.0** — human-only
 
-## Artifacts
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-Machine-readable API specifications organized by format.
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-## Vocabulary
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ball/](https://apis.io/providers/ball/).
 
-- [Ball Corporation Vocabulary](vocabulary/ball-vocabulary.yaml) — Taxonomy covering 4 resources, 4 actions, and 2 personas for aluminum packaging and aerospace domains
+## How this profile is made
 
-## Rules
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [Ball Corporation Spectral Rules](rules/ball-spectral-rules.yml) — 7 rules for Ball API conventions (applicable if partner APIs are published)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ball Corporation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ball/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
